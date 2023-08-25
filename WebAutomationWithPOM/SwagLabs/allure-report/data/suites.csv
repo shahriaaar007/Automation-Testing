@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 20 23:08:29 BDT 2022","Wed Apr 20 23:08:56 BDT 2022","27324","Default Suite","swagLabs","testCasePackage.TC001_loginAndPurchase","testCasePackage.TC001_loginAndPurchase","loginAndPurchase","Login with User and password",""
+"passed","Wed Apr 20 23:08:24 BDT 2022","Wed Apr 20 23:08:28 BDT 2022","4029","Default Suite","swagLabs","testCasePackage.TC001_loginAndPurchase","testCasePackage.TC001_loginAndPurchase","loginAndPurchase","Login with User and password",""

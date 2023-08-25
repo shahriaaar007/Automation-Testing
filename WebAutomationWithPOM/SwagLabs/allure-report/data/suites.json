@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "swagLabs",
+      "children" : [ {
+        "name" : "testCasePackage.TC001_loginAndPurchase",
+        "children" : [ {
+          "name" : "Login with User and password",
+          "uid" : "bc6529b61ffc9216",
+          "parentUid" : "a1d9b2889ee44674e86ccde5150b4595",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650474504749,
+            "stop" : 1650474508778,
+            "duration" : 4029
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "standard_user", "secret_sauce", "Abu", "Bakar", "1234" ]
+        }, {
+          "name" : "Login with User and password",
+          "uid" : "6c3ba1066f556ee2",
+          "parentUid" : "a1d9b2889ee44674e86ccde5150b4595",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650474509001,
+            "stop" : 1650474536325,
+            "duration" : 27324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "performance_glitch_user", "secret_sauce", "Lionel", "Messi", "4567" ]
+        } ],
+        "uid" : "a1d9b2889ee44674e86ccde5150b4595"
+      } ],
+      "uid" : "b7e8282282d2996446f3ecddaafcf711"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ],
+  "name" : "suites"
+}

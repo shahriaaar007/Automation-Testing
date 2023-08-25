@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Login with User and password",
+    "uid" : "bc6529b61ffc9216",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650474504749,
+      "stop" : 1650474508778,
+      "duration" : 4029
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "standard_user", "secret_sauce", "Abu", "Bakar", "1234" ]
+  }, {
+    "name" : "Login with User and password",
+    "uid" : "6c3ba1066f556ee2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650474509001,
+      "stop" : 1650474536325,
+      "duration" : 27324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "performance_glitch_user", "secret_sauce", "Lionel", "Messi", "4567" ]
+  } ],
+  "name" : "behaviors"
+}

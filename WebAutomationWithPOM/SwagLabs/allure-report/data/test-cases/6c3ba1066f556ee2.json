@@ -1,0 +1,258 @@
+{
+  "uid" : "6c3ba1066f556ee2",
+  "name" : "Login with User and password",
+  "fullName" : "testCasePackage.TC001_loginAndPurchase.loginAndPurchase",
+  "historyId" : "4c7c11aef500bad975a78e44afe8e88d",
+  "time" : {
+    "start" : 1650474509001,
+    "stop" : 1650474536325,
+    "duration" : 27324
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1650474496127,
+      "stop" : 1650474504452,
+      "duration" : 8325
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Perform login with user name and password",
+      "time" : {
+        "start" : 1650474509006,
+        "stop" : 1650474514590,
+        "duration" : 5584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "performance_glitch_user"
+      }, {
+        "name" : "pass",
+        "value" : "secret_sauce"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Purchase by filtering Name(A-Z, Z-A) and Price(High-Low, Low-High)",
+      "time" : {
+        "start" : 1650474514603,
+        "stop" : 1650474514781,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click the cart button to checkout all selected product",
+      "time" : {
+        "start" : 1650474530467,
+        "stop" : 1650474530522,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click checkout button for the next step",
+      "time" : {
+        "start" : 1650474530528,
+        "stop" : 1650474530594,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fill information to shipping product",
+      "time" : {
+        "start" : 1650474530601,
+        "stop" : 1650474530997,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fName",
+        "value" : "Lionel"
+      }, {
+        "name" : "lName",
+        "value" : "Messi"
+      }, {
+        "name" : "zipCode",
+        "value" : "4567"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Overview the product and click the finish button",
+      "time" : {
+        "start" : 1650474531006,
+        "stop" : 1650474531059,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Go back to the home page and see the all product",
+      "time" : {
+        "start" : 1650474531068,
+        "stop" : 1650474536131,
+        "duration" : 5063
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Perform logout",
+      "time" : {
+        "start" : 1650474536149,
+        "stop" : 1650474536325,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650474536365,
+      "stop" : 1650474537163,
+      "duration" : 798
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCasePackage.TC001_loginAndPurchase"
+  }, {
+    "name" : "testClass",
+    "value" : "testCasePackage.TC001_loginAndPurchase"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginAndPurchase"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "swagLabs"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCasePackage.TC001_loginAndPurchase"
+  }, {
+    "name" : "host",
+    "value" : "hp-probook-440-G4"
+  }, {
+    "name" : "thread",
+    "value" : "3244@hp-probook-440-G4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "performance_glitch_user"
+  }, {
+    "name" : "arg1",
+    "value" : "secret_sauce"
+  }, {
+    "name" : "arg2",
+    "value" : "Lionel"
+  }, {
+    "name" : "arg3",
+    "value" : "Messi"
+  }, {
+    "name" : "arg4",
+    "value" : "4567"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c3ba1066f556ee2.json",
+  "parameterValues" : [ "performance_glitch_user", "secret_sauce", "Lionel", "Messi", "4567" ]
+}
